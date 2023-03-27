@@ -1,0 +1,81 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Set full height for html and body */
+html,
+body {
+  height: 100%;
+}
+
+/* Set background color for body */
+body {
+  background-color: #f8f8f8;
+}
+
+/* Style navigation bar */
+nav {
+  height: 4rem;
+}
+
+/* Style logo */
+nav a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Style navigation links */
+nav a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+/* Style active link */
+nav a:hover {
+  color: #fff;
+}
+
+/* Style sign in button */
+nav .btn-sign-in {
+  background-color: #fff;
+  color: #9c27b0;
+}
+
+nav .btn-sign-in:hover {
+  background-color: #9c27b0;
+  color: #fff;
+}
+
+/* Set full height for html and body */
+html,
+body {
+  height: 100%;
+}
+
+/* Set background color for body */
+body {
+  background-color: #f8f8f8;
+}
+
+/* Style hero section */
+section {
+  height: calc(100vh - 4rem);
+}
+
+/* Style hero section content */
+section h1 {
+  line-height: 1.2;
+}
+
+section p {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+section a {
+  min-width: 12rem;
+}
+
+section a:hover {
+  background-color: #5a0674;
+}
